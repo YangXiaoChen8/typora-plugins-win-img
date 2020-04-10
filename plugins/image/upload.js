@@ -66,11 +66,11 @@
         },
         //target=github 时涉及的配置参数
         github:{
-            Token : 'efa094:55d913656:3de0d371bd4:26a589d5a17e12'.replace(/:/g, ''), // 添加一个仅给typora使用的token 授予最小的权限（repo.public_repo） ，添加token：https://github.com/settings/tokens(折腾是因为github检测到token后会自动失效)
-            CommitterName : 'Thobian',                          // 提交人昵称，写你github的昵称
-            CommitterEmail : 'suixinsuoyu1hao@gmail.com',       // 提交人邮箱，写你github的邮箱
-            Repository : 'Thobian/typora-image',                // github项目名，比如你的项目地址是：https://github.com/Thobian/typora-image  那就是后面的“Thobian/typora-image”
-            Filepath : 'demo/',                                 // 图片在项目中的保存目录，可以不用提前创建目录，github提交时发现没有会自动创建，后面的 / 不能少
+            Token : '6fd3b5aaf1a393f0c669ad74bdef5bdd3fc8f381'.replace(/:/g, ''), // 添加一个仅给typora使用的token 授予最小的权限（repo.public_repo） ，添加token：https://github.com/settings/tokens(折腾是因为github检测到token后会自动失效)
+            CommitterName : 'YangXiaoChen8',                          // 提交人昵称，写你github的昵称
+            CommitterEmail : '553003511@qq.com',       // 提交人邮箱，写你github的邮箱
+            Repository : 'YangXiaoChen8/typora-plugins-win-img',                // github项目名，比如你的项目地址是：https://github.com/Thobian/typora-image  那就是后面的“Thobian/typora-image”
+            Filepath : 'typora',                                 // 图片在项目中的保存目录，可以不用提前创建目录，github提交时发现没有会自动创建，后面的 / 不能少
             jsDelivrCND : false,                                // 是否开启GitHub图片走镜像，国内有时候访问不太方便。【注意：开启CDN后会将原github的文件地址换成 jsDelivr 的地址，如出现镜像出现国内无法访问，或者不再继续运营你的图片也将不能访问到，请谨慎开启该功能】
         },
         //target=gitee 时涉及的配置参数
