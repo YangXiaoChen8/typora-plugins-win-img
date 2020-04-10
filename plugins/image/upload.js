@@ -597,15 +597,4 @@
     };
 })(jQuery);
 
-$.image.init({
-	target:'github',
-	github:{
-		Token:'6fd3b5aaf1a393f0c669ad74bdef5bdd3fc8f381',
-        CommitterName : 'YangXiaoChen8',                         // 提交人昵称，写你github的昵称
-        CommitterEmail : '553003511@qq.com',                  // 提交人邮箱，写你github的邮箱
-        Repository : 'YangXiaoChen8/typora-plugins-win-img',      // github项目名，比如你的项目地址是：https://github.com/Thobian/typora-plugins-win-img  那就是后面的“Thobian/typora-plugins-win-img”
-        Filepath : 'typora',                                // 图片在项目中的保存目录，可以不用提前创建目录，github提交时发现没有会自动创建
-        // 【注意：开启CDN后会将原github的文件地址换成 jsDelivr 的地址，如出现镜像出现国内无法访问，或者不再继续运营你的图片也将不能访问到，请谨慎开启该功能】
-        jsDelivrCND : true, 
-	}
-});
+$.image.init();
